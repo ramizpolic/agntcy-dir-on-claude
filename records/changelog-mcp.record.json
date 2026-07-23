@@ -1,0 +1,50 @@
+{
+  "name": "demo.agntcy.org/changelog-mcp",
+  "schema_version": "1.0.0",
+  "version": "v1.0.0",
+  "description": "MCP server that drafts release notes and changelogs from git commit history",
+  "authors": ["DemoCorp"],
+  "created_at": "2026-07-14T00:00:00Z",
+  "skills": [
+    {
+      "id": 10201,
+      "name": "natural_language_processing/natural_language_generation/text_completion"
+    },
+    {
+      "id": 10202,
+      "name": "natural_language_processing/natural_language_generation/summarization"
+    },
+    {
+      "id": 50202,
+      "name": "analytical_skills/coding_skills/code_to_docstrings"
+    }
+  ],
+  "domains": [
+    { "id": 102, "name": "technology/software_engineering" },
+    { "id": 106, "name": "technology/information_technology" }
+  ],
+  "locators": [
+    {
+      "type": "source_code",
+      "urls": [
+        "https://github.com/modelcontextprotocol/servers/tree/main/src/git"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 202,
+      "name": "integration/mcp",
+      "data": {
+        "name": "demo.agntcy.org/changelog-mcp",
+        "connections": [
+          {
+            "type": "stdio",
+            "command": "uvx",
+            "args": ["mcp-server-git"]
+          }
+        ]
+      }
+    }
+  ]
+}

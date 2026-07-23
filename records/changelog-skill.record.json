@@ -1,0 +1,64 @@
+{
+  "authors": ["DemoCorp"],
+  "created_at": "2026-07-17T18:48:43Z",
+  "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+  "domains": [
+    {
+      "id": 102,
+      "name": "technology/software_engineering"
+    },
+    {
+      "id": 110,
+      "name": "technology/process_automation"
+    }
+  ],
+  "modules": [
+    {
+      "artifact": {
+        "data": "LS0tCm5hbWU6IGNoYW5nZWxvZy1nZW5lcmF0b3IKZGVzY3JpcHRpb246IEF1dG9tYXRpY2FsbHkgY3JlYXRlcyB1c2VyLWZhY2luZyBjaGFuZ2Vsb2dzIGZyb20gZ2l0IGNvbW1pdHMgYnkgYW5hbHl6aW5nIGNvbW1pdCBoaXN0b3J5LCBjYXRlZ29yaXppbmcgY2hhbmdlcywgYW5kIHRyYW5zZm9ybWluZyB0ZWNobmljYWwgY29tbWl0cyBpbnRvIGNsZWFyLCBjdXN0b21lci1mcmllbmRseSByZWxlYXNlIG5vdGVzLiBUdXJucyBob3VycyBvZiBtYW51YWwgY2hhbmdlbG9nIHdyaXRpbmcgaW50byBtaW51dGVzIG9mIGF1dG9tYXRlZCBnZW5lcmF0aW9uLgotLS0KCiMgQ2hhbmdlbG9nIEdlbmVyYXRvcgoKVGhpcyBza2lsbCB0cmFuc2Zvcm1zIHRlY2huaWNhbCBnaXQgY29tbWl0cyBpbnRvIHBvbGlzaGVkLCB1c2VyLWZyaWVuZGx5IGNoYW5nZWxvZ3MgdGhhdCB5b3VyIGN1c3RvbWVycyBhbmQgdXNlcnMgd2lsbCBhY3R1YWxseSB1bmRlcnN0YW5kIGFuZCBhcHByZWNpYXRlLgoKIyMgV2hlbiB0byBVc2UgVGhpcyBTa2lsbAoKLSBQcmVwYXJpbmcgcmVsZWFzZSBub3RlcyBmb3IgYSBuZXcgdmVyc2lvbgotIENyZWF0aW5nIHdlZWtseSBvciBtb250aGx5IHByb2R1Y3QgdXBkYXRlIHN1bW1hcmllcwotIERvY3VtZW50aW5nIGNoYW5nZXMgZm9yIGN1c3RvbWVycwotIFdyaXRpbmcgY2hhbmdlbG9nIGVudHJpZXMgZm9yIGFwcCBzdG9yZSBzdWJtaXNzaW9ucwotIEdlbmVyYXRpbmcgdXBkYXRlIG5vdGlmaWNhdGlvbnMKLSBDcmVhdGluZyBpbnRlcm5hbCByZWxlYXNlIGRvY3VtZW50YXRpb24KLSBNYWludGFpbmluZyBhIHB1YmxpYyBjaGFuZ2Vsb2cvcHJvZHVjdCB1cGRhdGVzIHBhZ2UKCiMjIFdoYXQgVGhpcyBTa2lsbCBEb2VzCgoxLiAqKlNjYW5zIEdpdCBIaXN0b3J5Kio6IEFuYWx5emVzIGNvbW1pdHMgZnJvbSBhIHNwZWNpZmljIHRpbWUgcGVyaW9kIG9yIGJldHdlZW4gdmVyc2lvbnMKMi4gKipDYXRlZ29yaXplcyBDaGFuZ2VzKio6IEdyb3VwcyBjb21taXRzIGludG8gbG9naWNhbCBjYXRlZ29yaWVzIChmZWF0dXJlcywgaW1wcm92ZW1lbnRzLCBidWcgZml4ZXMsIGJyZWFraW5nIGNoYW5nZXMsIHNlY3VyaXR5KQozLiAqKlRyYW5zbGF0ZXMgVGVjaG5pY2FsIOKGkiBVc2VyLUZyaWVuZGx5Kio6IENvbnZlcnRzIGRldmVsb3BlciBjb21taXRzIGludG8gY3VzdG9tZXIgbGFuZ3VhZ2UKNC4gKipGb3JtYXRzIFByb2Zlc3Npb25hbGx5Kio6IENyZWF0ZXMgY2xlYW4sIHN0cnVjdHVyZWQgY2hhbmdlbG9nIGVudHJpZXMKNS4gKipGaWx0ZXJzIE5vaXNlKio6IEV4Y2x1ZGVzIGludGVybmFsIGNvbW1pdHMgKHJlZmFjdG9yaW5nLCB0ZXN0cywgZXRjLikKNi4gKipGb2xsb3dzIEJlc3QgUHJhY3RpY2VzKio6IEFwcGxpZXMgY2hhbmdlbG9nIGd1aWRlbGluZXMgYW5kIHlvdXIgYnJhbmQgdm9pY2UKCiMjIEhvdyB0byBVc2UKCiMjIyBCYXNpYyBVc2FnZQoKRnJvbSB5b3VyIHByb2plY3QgcmVwb3NpdG9yeToKCmBgYApDcmVhdGUgYSBjaGFuZ2Vsb2cgZnJvbSBjb21taXRzIHNpbmNlIGxhc3QgcmVsZWFzZQpgYGAKCmBgYApHZW5lcmF0ZSBjaGFuZ2Vsb2cgZm9yIGFsbCBjb21taXRzIGZyb20gdGhlIHBhc3Qgd2VlawpgYGAKCmBgYApDcmVhdGUgcmVsZWFzZSBub3RlcyBmb3IgdmVyc2lvbiAyLjUuMApgYGAKCiMjIyBXaXRoIFNwZWNpZmljIERhdGUgUmFuZ2UKCmBgYApDcmVhdGUgYSBjaGFuZ2Vsb2cgZm9yIGFsbCBjb21taXRzIGJldHdlZW4gTWFyY2ggMSBhbmQgTWFyY2ggMTUKYGBgCgojIyMgV2l0aCBDdXN0b20gR3VpZGVsaW5lcwoKYGBgCkNyZWF0ZSBhIGNoYW5nZWxvZyBmb3IgY29tbWl0cyBzaW5jZSB2Mi40LjAsIHVzaW5nIG15IGNoYW5nZWxvZyAKZ3VpZGVsaW5lcyBmcm9tIENIQU5HRUxPR19TVFlMRS5tZApgYGAKCiMjIEV4YW1wbGUKCioqVXNlcioqOiAiQ3JlYXRlIGEgY2hhbmdlbG9nIGZvciBjb21taXRzIGZyb20gdGhlIHBhc3QgNyBkYXlzIgoKKipPdXRwdXQqKjoKYGBgbWFya2Rvd24KIyBVcGRhdGVzIC0gV2VlayBvZiBNYXJjaCAxMCwgMjAyNAoKIyMg4pyoIE5ldyBGZWF0dXJlcwoKLSAqKlRlYW0gV29ya3NwYWNlcyoqOiBDcmVhdGUgc2VwYXJhdGUgd29ya3NwYWNlcyBmb3IgZGlmZmVyZW50IAogIHByb2plY3RzLiBJbnZpdGUgdGVhbSBtZW1iZXJzIGFuZCBrZWVwIGV2ZXJ5dGhpbmcgb3JnYW5pemVkLgoKLSAqKktleWJvYXJkIFNob3J0Y3V0cyoqOiBQcmVzcyA/IHRvIHNlZSBhbGwgYXZhaWxhYmxlIHNob3J0Y3V0cy4gCiAgTmF2aWdhdGUgZmFzdGVyIHdpdGhvdXQgdG91Y2hpbmcgeW91ciBtb3VzZS4KCiMjIPCflKcgSW1wcm92ZW1lbnRzCgotICoqRmFzdGVyIFN5bmMqKjogRmlsZXMgbm93IHN5bmMgMnggZmFzdGVyIGFjcm9zcyBkZXZpY2VzCi0gKipCZXR0ZXIgU2VhcmNoKio6IFNlYXJjaCBub3cgaW5jbHVkZXMgZmlsZSBjb250ZW50cywgbm90IGp1c3QgdGl0bGVzCgojIyDwn5CbIEZpeGVzCgotIEZpeGVkIGlzc3VlIHdoZXJlIGxhcmdlIGltYWdlcyB3b3VsZG4ndCB1cGxvYWQKLSBSZXNvbHZlZCB0aW1lem9uZSBjb25mdXNpb24gaW4gc2NoZWR1bGVkIHBvc3RzCi0gQ29ycmVjdGVkIG5vdGlmaWNhdGlvbiBiYWRnZSBjb3VudApgYGAKCioqSW5zcGlyZWQgYnk6KiogTWFuaWsgQWdnYXJ3YWwncyB1c2UgY2FzZSBmcm9tIExlbm55J3MgTmV3c2xldHRlcgoKIyMgVGlwcwoKLSBSdW4gZnJvbSB5b3VyIGdpdCByZXBvc2l0b3J5IHJvb3QKLSBTcGVjaWZ5IGRhdGUgcmFuZ2VzIGZvciBmb2N1c2VkIGNoYW5nZWxvZ3MKLSBVc2UgeW91ciBDSEFOR0VMT0dfU1RZTEUubWQgZm9yIGNvbnNpc3RlbnQgZm9ybWF0dGluZwotIFJldmlldyBhbmQgYWRqdXN0IHRoZSBnZW5lcmF0ZWQgY2hhbmdlbG9nIGJlZm9yZSBwdWJsaXNoaW5nCi0gU2F2ZSBvdXRwdXQgZGlyZWN0bHkgdG8gQ0hBTkdFTE9HLm1kCgojIyBSZWxhdGVkIFVzZSBDYXNlcwoKLSBDcmVhdGluZyBHaXRIdWIgcmVsZWFzZSBub3RlcwotIFdyaXRpbmcgYXBwIHN0b3JlIHVwZGF0ZSBkZXNjcmlwdGlvbnMKLSBHZW5lcmF0aW5nIGVtYWlsIHVwZGF0ZXMgZm9yIHVzZXJzCi0gQ3JlYXRpbmcgc29jaWFsIG1lZGlhIGFubm91bmNlbWVudCBwb3N0cwo=",
+        "digest": "sha256:878f618750c387af083414eb6d16d0f0f673805a75b6cf243e9fbc73da663985",
+        "media_type": "application/agent-skills+md",
+        "size": 3095
+      },
+      "data": {
+        "skill_file": "SKILL.md",
+        "skill_manifest": {
+          "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+          "name": "changelog-generator",
+          "version": "v1.0.0"
+        }
+      },
+      "id": 10302,
+      "name": "core/language_model/agentskills"
+    }
+  ],
+  "name": "demo.agntcy.org/changelog-generator",
+  "schema_version": "1.0.0",
+  "skills": [
+    {
+      "id": 109,
+      "name": "natural_language_processing/text_classification"
+    },
+    {
+      "id": 101,
+      "name": "natural_language_processing/natural_language_understanding"
+    },
+    {
+      "id": 104,
+      "name": "natural_language_processing/creative_content"
+    },
+    {
+      "id": 10201,
+      "name": "natural_language_processing/natural_language_generation/text_completion"
+    },
+    {
+      "id": 10202,
+      "name": "natural_language_processing/natural_language_generation/summarization"
+    },
+    {
+      "id": 50202,
+      "name": "analytical_skills/coding_skills/code_to_docstrings"
+    }
+  ],
+  "version": "v1.0.0"
+}
