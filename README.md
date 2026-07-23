@@ -5,6 +5,9 @@
 
 This guide walks through the full lifecycle of agentic development using [AGNTCY Directory](https://github.com/agntcy/dir) on Claude. It shows how to install the neccessary skills into your agentic environment, run a local directory service, author and publish agent records, and finally, discover, verify, and use agents - both locally and across the network.
 
+> [!NOTE]
+> For issues and questions around the setup and workflow, please file an issue on https://github.com/agntcy/dir
+
 ## Prerequisites
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed.
