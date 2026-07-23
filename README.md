@@ -58,7 +58,7 @@ Type each prompt below into Claude and let the agent finish before moving on.
    to the network without waiting, and report the summary.
    ```
 
-### 3. Local directory
+### 3. Local discovery
 
 1. Search the local directory for a matching agent:
 
