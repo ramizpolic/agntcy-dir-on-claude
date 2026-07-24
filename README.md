@@ -174,3 +174,6 @@ export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_AUTH_CONFIG_PASSWORD=<token>
 ## Set GHCR for discovery in routing
 export DIRECTORY_DAEMON_SERVER_ROUTING_DIRECTORY_OCI_ADDRESS="https://ghcr.io/<user>/<repo>"
 ```
+
+> Check the records stored on GHCR
+> https://github.com/users/ramizpolic/packages/container/package/agntcy-dir-on-claude
