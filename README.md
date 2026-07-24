@@ -157,6 +157,7 @@ export DIRECTORY_DAEMON_SERVER_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshi
 Records are shared between nodes via sync: after discovering records on the network, the sync pulls the data via OCI protocol from remote peers into your own OCI registry. By default, your DIR runs a local registry not exposed to the network. You can configure your DIR to use a publically accessible OCI registry such as GHCR to share your records with others. You can do this by configuring the service with:
 
 ```
+# Set GHCR as storage backend for the API and workers
 export DIRECTORY_DAEMON_SERVER_STORE_OCI_LOCAL_DIR=""
 export DIRECTORY_DAEMON_SERVER_STORE_OCI_REGISTRY_ADDRESS="ghcr.io"
 export DIRECTORY_DAEMON_SERVER_STORE_OCI_REPOSITORY_NAME="<user>/<repo>"
@@ -164,5 +165,12 @@ export DIRECTORY_DAEMON_SERVER_STORE_OCI_AUTH_CONFIG_INSECURE=false
 export DIRECTORY_DAEMON_SERVER_STORE_OCI_AUTH_CONFIG_USERNAME=<user>
 export DIRECTORY_DAEMON_SERVER_STORE_OCI_AUTH_CONFIG_PASSWORD=<token>
 
-# same config for DIRECTORY_RECONCILER_*
+export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_REGISTRY_ADDRESS="ghcr.io"
+export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_REPOSITORY_NAME="<user>/<repo>"
+export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_AUTH_CONFIG_INSECURE=false
+export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_AUTH_CONFIG_USERNAME=<user>
+export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_AUTH_CONFIG_PASSWORD=<token>
+
+## Set GHCR for discovery in routing
+export DIRECTORY_DAEMON_SERVER_ROUTING_DIRECTORY_OCI_ADDRESS="https://ghcr.io/<user>/<repo>"
 ```
