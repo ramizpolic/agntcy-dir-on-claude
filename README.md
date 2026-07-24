@@ -149,7 +149,7 @@ In order to enable security scanning capabilities shown in the demo, the followi
 Discovery in AGNTCY Directory works at two levels: local search against your own node, and network-wide search across peers. The local node joins the AGNTCY network via a routing bootstrap peer, letting it announce published records and discover records announced by others. Network search matches on taxonomy names and returns which peers hold which records. This discovery result can then be used to sync the records from remote sources to your local node for use. By default, your DIR is not part of any network. You can configure your DIR to join public AGNTCY network bootstrap peer by configuring the service with:
 
 ```
-export DIRECTORY_DAEMON_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu" 
+export DIRECTORY_DAEMON_SERVER_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu" 
 ```
 
 ## About data sharing
