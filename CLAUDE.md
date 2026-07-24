@@ -5,7 +5,7 @@ When giving answers, be short and concise, focus on the high-level. Do not overe
 ## Daemon configuration
 
 For the local node daemon config, use the default values but set the override with the following values:
-  - `export DIRECTORY_DAEMON_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu"` to set the routing bootstrap peer to connect to the AGNTCY network for discovery.
+  - `export DIRECTORY_DAEMON_SERVER_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu"` to set the routing bootstrap peer to connect to the AGNTCY network for discovery.
   - `export DIRECTORY_DAEMON_RECONCILER_SCAN_INTERVAL=1s` to set the reconciler scan interval for faster security results.
   - `export DIRECTORY_DAEMON_RECONCILER_SIGNATURE_INTERVAL=1s` to set the reconciler signature interval for faster signature verification results.
   - `export DIRECTORY_DAEMON_RECONCILER_INDEXER_INTERVAL=1s` to set the reconciler indexer interval for faster indexing of records.
