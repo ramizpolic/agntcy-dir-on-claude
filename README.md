@@ -175,5 +175,6 @@ export DIRECTORY_DAEMON_RECONCILER_LOCAL_REGISTRY_AUTH_CONFIG_PASSWORD=<token>
 export DIRECTORY_DAEMON_SERVER_ROUTING_DIRECTORY_OCI_ADDRESS="https://ghcr.io/<user>/<repo>"
 ```
 
-> Check the records stored on GHCR
+> Check these demo records stored on GHCR at
+> 
 > https://github.com/users/ramizpolic/packages/container/package/agntcy-dir-on-claude
