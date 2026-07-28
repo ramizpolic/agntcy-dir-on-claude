@@ -33,10 +33,10 @@ Type each prompt below into Claude and let the agent finish before moving on.
    Claude project.
    ```
 
-2. Reload plugins so Claude picks up the new skill:
+2. Reload skills so Claude picks up the new skill:
 
    ```
-   /reload-plugins
+   /reload-skills
    ```
 
 3. Start a local AGNTCY Directory:
@@ -82,10 +82,10 @@ Type each prompt below into Claude and let the agent finish before moving on.
    Install the best matching agent into my current Claude project.
    ```
 
-4. Reload plugins:
+4. Reload skills so Claude picks up the newly installed skill:
 
    ```
-   /reload-plugins
+   /reload-skills
    ```
 
 5. Use the newly installed changelog agent:
@@ -118,10 +118,10 @@ Type each prompt below into Claude and let the agent finish before moving on.
    Install the best matching agent into my current Claude project.
    ```
 
-4. Reload plugins:
+4. Reload skills so Claude picks up the newly installed skill:
 
    ```
-   /reload-plugins
+   /reload-skills
    ```
 
 5. Use the newly installed UNIX agent:
