@@ -3,7 +3,7 @@
 > **AGNTCY Directory: From Zero to Building With Agents You Can Find and Trust**
 > **https://www.youtube.com/watch?v=-ux8hTpcr3c**
 
-This guide walks through the full lifecycle of agentic development using [AGNTCY Directory](https://github.com/agntcy/dir) on Claude. It shows how to install the neccessary skills into your agentic environment, run a local directory service, author and publish agent records, and finally, discover, verify, and use agents - both locally and across the network.
+This guide walks through the full lifecycle of agentic development using [AGNTCY Directory](https://github.com/agntcy/dir) on Claude. It shows how to install the necessary skills into your agentic environment, run a local directory service, author and publish agent records, and finally, discover, verify, and use agents - both locally and across the network.
 
 > [!NOTE]
 > For issues and questions around the setup and workflow, please file an issue on https://github.com/agntcy/dir
@@ -149,12 +149,12 @@ In order to enable security scanning capabilities shown in the demo, the followi
 Discovery in AGNTCY Directory works at two levels: local search against your own node, and network-wide search across peers. The local node joins the AGNTCY network via a routing bootstrap peer, letting it announce published records and discover records announced by others. Network search matches on taxonomy names and returns which peers hold which records. This discovery result can then be used to sync the records from remote sources to your local node for use. By default, your DIR is not part of any network. You can configure your DIR to join public AGNTCY network bootstrap peer by configuring the service with:
 
 ```
-export DIRECTORY_DAEMON_SERVER_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu" 
+export DIRECTORY_DAEMON_SERVER_ROUTING_BOOTSTRAP_PEERS="/dns4/routing.ads.outshift.io/tcp/5555/p2p/12D3KooWLf9p3cedc86xGQBaqak6rAFmQk1HxKAK1yh7umHE3amu"
 ```
 
 ## About data sharing
 
-Records are shared between nodes via sync: after discovering records on the network, the sync pulls the data via OCI protocol from remote peers into your own OCI registry. By default, your DIR runs a local registry not exposed to the network. You can configure your DIR to use a publically accessible OCI registry such as GHCR to share your records with others. You can do this by configuring the service with:
+Records are shared between nodes via sync: after discovering records on the network, the sync pulls the data via OCI protocol from remote peers into your own OCI registry. By default, your DIR runs a local registry not exposed to the network. You can configure your DIR to use a publicly accessible OCI registry such as GHCR to share your records with others. You can do this by configuring the service with:
 
 ```
 ## Set GHCR as storage backend for the API and workers
