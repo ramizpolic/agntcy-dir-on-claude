@@ -82,11 +82,21 @@ Type each prompt below into Claude and let the agent finish before moving on.
    Install the best matching agent into my current Claude project.
    ```
 
-4. Reload skills so Claude picks up the newly installed skill:
+4. Activate the installed agent. What to run depends on what the record carried:
 
-   ```
-   /reload-skills
-   ```
+   - If it is an **Agent Skill** (`core/language_model/agentskills`), reload skills:
+
+     ```
+     /reload-skills
+     ```
+
+   - If it is an **MCP server** (`integration/mcp`), restart the session. MCP servers
+     connect at startup, so a skills reload will not pick them up. Then confirm it
+     connected:
+
+     ```
+     /mcp
+     ```
 
 5. Use the newly installed changelog agent:
 
@@ -118,11 +128,16 @@ Type each prompt below into Claude and let the agent finish before moving on.
    Install the best matching agent into my current Claude project.
    ```
 
-4. Reload skills so Claude picks up the newly installed skill:
+4. Activate the installed agent, as in step 3.4:
 
-   ```
-   /reload-skills
-   ```
+   - If it is an **Agent Skill** (`core/language_model/agentskills`), reload skills:
+
+     ```
+     /reload-skills
+     ```
+
+   - If it is an **MCP server** (`integration/mcp`), restart the session, then run
+     `/mcp` to confirm it connected.
 
 5. Use the newly installed UNIX agent:
 
