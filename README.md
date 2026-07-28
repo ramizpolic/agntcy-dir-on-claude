@@ -29,8 +29,8 @@ Type each prompt below into Claude and let the agent finish before moving on.
 1. Install the skill:
 
    ```
-   Install the agent skill https://github.com/agntcy/dir into my current
-   Claude project.
+   Install the agent skill from the .skill/ folder in https://github.com/agntcy/dir
+   into the .claude/skills/ folder of my current project.
    ```
 
 2. Reload plugins so Claude picks up the new skill:
